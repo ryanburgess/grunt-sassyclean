@@ -16,7 +16,6 @@ module.exports = function (grunt) {
       options,
       modules,
       buildfiles,
-      rootsass,
       unused,
       content,
       datemod,
@@ -28,12 +27,12 @@ module.exports = function (grunt) {
       fullpath,
       newfile,
       assets = [],
-      links = [];
+      links = [],
+      fullfile = [];
 
     options = this.options({
       modules: ['sass/modules/**.scss'],
       buildfiles: ['sass/**/*.scss'],
-      rootsass: 'sass/',
       remove: false,
       days: null
     });
@@ -89,12 +88,17 @@ module.exports = function (grunt) {
     }
 
     // Get list of modules
+    var i = 0;
     grunt.file.expand({
       filter: 'isFile',
       }, options.modules).forEach(function(file){
         extension = path.extname(file);
         var justPath = file.substring(0, file.lastIndexOf('/'));
         newfile = file.replace(justPath, '').replace('/_', '').replace(extension, '');
+        fullfile.push(newfile, file);
+        fullfile[i] = { 'file': newfile, 'path': file };
+
+        i++;
         assets.push(newfile);
     });
 
@@ -117,7 +121,12 @@ module.exports = function (grunt) {
 
     unused.forEach(function(file){
       //add the underscore back to sass module file names
-      fullpath = options.rootsass + '_' + file + extension;
+      var fullfilename = '_' + file + extension;
+      for (var i = 0; i < fullfile.length; i++){
+        if (fullfile[i].file === file) {
+          fullpath = fullfile[i].path;
+        }
+      }
 
       // delete file if remove is set to true
       if(options.remove === true && options.days !== null){
