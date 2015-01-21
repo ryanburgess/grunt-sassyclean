@@ -1,7 +1,7 @@
 Grunt Sassy Clean
 ================
 
-Find and clean up unused Sass modules from your project build.
+Grunt Sassy Clean scans a project for partials that are never imported. Sassy Clean has the ability to automatically delete the unused partials or display the file name as a console log.
 
 ## Getting Started
 
@@ -73,6 +73,7 @@ Default value: `false`
 If remove is set to true and days has a value files will only delete if the file hasn't been modified after the length of days.
 
 ## Release History
+* 0.1.2: fix [#1](https://github.com/ryanburgess/grunt-sassyclean/issues/1) better explain Grunt task.
 * 0.1.1: Adding moment as a dependency.
 * 0.1.0: Initial release.
 
