@@ -1,7 +1,7 @@
 Grunt Sassy Clean
 ================
 
-Grunt Sassy Clean scans a project for partials that are never imported. Sassy Clean has the ability to automatically delete the unused partials or display the file name as a console log.
+Grunt Sassy Clean scans a project for partials that are never imported. Sassy Clean provides the option to automatically delete the unused partials or display the file name as a console log.
 
 ## Getting Started
 
