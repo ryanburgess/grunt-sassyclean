@@ -1,6 +1,6 @@
 {
   "name": "grunt-sassyclean",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Find and clean up unused Sass modules from your project build.",
   "keywords": [
     "gruntplugin",

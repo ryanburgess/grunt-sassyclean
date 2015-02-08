@@ -1,5 +1,5 @@
 /*
- * grunt-unused
+ * grunt-sassyclean
  * https://github.com/ryanburgess/grunt-sassyclean
  *
  * Copyright (c) 2014 Ryan Burgess
