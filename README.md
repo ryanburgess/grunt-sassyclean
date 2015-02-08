@@ -73,6 +73,7 @@ Default value: `false`
 If remove is set to true and days has a value files will only delete if the file hasn't been modified after the length of days.
 
 ## Release History
+* 0.1.5: Update dev dependencies.
 * 0.1.4: Add Grunt JSHint.
 * 0.1.3: Clean up documentation.
 * 0.1.2: fix [issue #1](https://github.com/ryanburgess/grunt-sassyclean/issues/1) better explain Grunt task.
