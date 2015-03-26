@@ -1,6 +1,10 @@
 Grunt SassyClean
 ================
 
+[![npm version](https://badge.fury.io/js/grunt-sassyclean.svg)](http://badge.fury.io/js/grunt-sassyclean)
+
+![SassyClean logo](https://raw.github.com/ryanburgess/grunt-sassyclean/master/sassyclean.png)
+
 Grunt SassyClean scans a project for partials that are never imported. SassyClean provides the option to automatically delete the unused partials or display the file name as a console log.
 
 ## Getting Started
@@ -73,6 +77,7 @@ Default value: `false`
 If remove is set to true and days has a value files will only delete if the file hasn't been modified after the length of days.
 
 ## Release History
+* 0.1.6: Readme updates.
 * 0.1.5: Update dev dependencies.
 * 0.1.4: Add Grunt JSHint.
 * 0.1.3: Clean up documentation.
