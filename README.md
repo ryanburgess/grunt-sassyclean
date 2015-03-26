@@ -95,4 +95,4 @@ If remove is set to true and days has a value files will only delete if the file
 7. Create new Pull Request
 
 ## License
-'MIT © [Ryan Burgess](http://github.com/ryanburgess)
+MIT © [Ryan Burgess](http://github.com/ryanburgess)
