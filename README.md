@@ -62,19 +62,19 @@ A reference to the directory of files that are being checked if any of the modul
 Type: `String|Array`
 Default value: `['**/*.scss']`
 
-An array of directories that contain Sass modules.
+The modules option provides the ability to set an array of directories that contain Sass modules.
 
 #### remove
 Type: `Boolean`
 Default value: `false`
 
-The ablity to automatically delete unused file reference from project.
+The ablity to automatically delete unused file reference from the project.
 
 #### days
 Type: `Number`
 Default value: `false`
 
-If remove is set to true and days has a value files will only delete if the file hasn't been modified after the length of days.
+If remove is set to true and days has a value, files will only be deleted if the file hasn't been modified greater than the length of days.
 
 ## Release History
 * 0.1.6: Readme updates.
