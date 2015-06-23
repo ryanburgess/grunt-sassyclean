@@ -1,7 +1,7 @@
 Grunt SassyClean
 ================
 
-[![npm version](https://badge.fury.io/js/grunt-sassyclean.svg)](http://badge.fury.io/js/grunt-sassyclean)
+[![npm version](https://badge.fury.io/js/grunt-sassyclean.svg)](http://badge.fury.io/js/grunt-sassyclean) [![Build Status](https://travis-ci.org/ryanburgess/grunt-sassyclean.svg?branch=master)](https://travis-ci.org/ryanburgess/grunt-sassyclean)
 
 ![SassyClean logo](https://raw.github.com/ryanburgess/grunt-sassyclean/master/sassyclean.png)
 
@@ -77,6 +77,7 @@ Default value: `false`
 If remove is set to true and days has a value, files will only be deleted if the file hasn't been modified greater than the length of days.
 
 ## Release History
+* 0.1.7: Add Travis CI.
 * 0.1.6: Readme updates.
 * 0.1.5: Update dev dependencies.
 * 0.1.4: Add Grunt JSHint.
