@@ -6,9 +6,8 @@
  * Licensed under the MIT license.
  */
 
-'use strict';
-
 module.exports = function (grunt) {
+  'use strict';
   grunt.registerTask('sassyclean', function(){
     var fs = require('fs'),
       path = require('path'),
@@ -50,28 +49,28 @@ module.exports = function (grunt) {
 
         //get hours
         hour = date.getHours();
-        hour = (hour < 10 ? "0" : "") + hour;
+        hour = (hour < 10 ? '0' : '') + hour;
 
         //get minutes
         min  = date.getMinutes();
-        min = (min < 10 ? "0" : "") + min;
+        min = (min < 10 ? '0' : '') + min;
 
         //get seconds
         sec  = date.getSeconds();
-        sec = (sec < 10 ? "0" : "") + sec;
+        sec = (sec < 10 ? '0' : '') + sec;
 
         //get year
         year = date.getFullYear();
 
         //get month
         month = date.getMonth() + 1;
-        month = (month < 10 ? "0" : "") + month;
+        month = (month < 10 ? '0' : '') + month;
 
         //get day
         day  = date.getDate();
-        day = (day < 10 ? "0" : "") + day;
+        day = (day < 10 ? '0' : '') + day;
 
-        return year + "-" + month + "-" + day; 
+        return year + '-' + month + '-' + day; 
 
     }
 
