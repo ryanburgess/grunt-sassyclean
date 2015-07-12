@@ -1,7 +1,7 @@
 Grunt SassyClean
 ================
 
-[![npm version](https://badge.fury.io/js/grunt-sassyclean.svg)](http://badge.fury.io/js/grunt-sassyclean) [![Build Status](https://travis-ci.org/ryanburgess/grunt-sassyclean.svg?branch=master)](https://travis-ci.org/ryanburgess/grunt-sassyclean)
+[![npm version](https://badge.fury.io/js/grunt-sassyclean.svg)](http://badge.fury.io/js/grunt-sassyclean) [![npm](https://img.shields.io/npm/dm/grunt-sassyclean.svg)](https://github.com/ryanburgess/grunt-sassyclean) [![Build Status](https://travis-ci.org/ryanburgess/grunt-sassyclean.svg?branch=master)](https://travis-ci.org/ryanburgess/grunt-sassyclean)
 
 ![SassyClean logo](https://raw.github.com/ryanburgess/grunt-sassyclean/master/sassyclean.png)
 
