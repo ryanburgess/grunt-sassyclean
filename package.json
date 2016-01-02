@@ -32,12 +32,20 @@
     "moment": "^2.8.4"
   },
   "devDependencies": {
+    "ghooks": "^1.0.1",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jsonlint": "^1.0.4",
     "grunt-newer": "^1.1.0",
     "jshint-stylish": "^1.0.0"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "grunt test",
+      "post-merge": "npm install",
+      "post-rewrite": "npm install"
+    }
   },
   "peerDependencies": {
     "grunt": "~0.4.0"
