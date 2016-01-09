@@ -87,7 +87,7 @@ If remove is set to true and days has a value, files will only be deleted if the
 * 0.1.0: Initial release.
 
 ## Related
-* [SassyClean](https://github.com/ryanburgess/sassyclean)
+* [Gulp SassyClean](https://github.com/ryanburgess/gulp-sassyclean)
 * [Sassy Sass](https://github.com/ryanburgess/sassysass)
 
 ## Contributing
