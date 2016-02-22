@@ -77,6 +77,7 @@ Default value: `false`
 If remove is set to true and days has a value, files will only be deleted if the file hasn't been modified greater than the length of days.
 
 ## Release History
+* 0.1.8: Update peerDependencies to support Grunt 1.0
 * 0.1.7: Add Travis CI.
 * 0.1.6: Readme updates.
 * 0.1.5: Update dev dependencies.
